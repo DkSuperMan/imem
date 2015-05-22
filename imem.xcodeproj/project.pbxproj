@@ -1,0 +1,639 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5357601518C5C2520080CBE6 /* AXTypeCommandHandlerBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 5357601418C5C2520080CBE6 /* AXTypeCommandHandlerBase.m */; };
+		5364A5D51926583B00DFAEA2 /* AXPrintCommandHandlerBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 5364A5D41926583B00DFAEA2 /* AXPrintCommandHandlerBase.m */; };
+		53A4CE5E188FF84500AE8AB6 /* AXHandlerHelp.m in Sources */ = {isa = PBXBuildFile; fileRef = 53A4CE5D188FF84500AE8AB6 /* AXHandlerHelp.m */; };
+		53A4CE61188FFB0D00AE8AB6 /* AXChangeCommandHandlerBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 53A4CE60188FFB0D00AE8AB6 /* AXChangeCommandHandlerBase.m */; };
+		53A4CE64188FFB2400AE8AB6 /* AXSearchCommandHandlerBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 53A4CE63188FFB2400AE8AB6 /* AXSearchCommandHandlerBase.m */; };
+		53A4CE67188FFB3500AE8AB6 /* AXAliasCommandHandlerBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 53A4CE66188FFB3500AE8AB6 /* AXAliasCommandHandlerBase.m */; };
+		53A4CE6A188FFB6C00AE8AB6 /* AXListCommandHandlerBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 53A4CE69188FFB6C00AE8AB6 /* AXListCommandHandlerBase.m */; };
+		53A4CE6D188FFDBE00AE8AB6 /* AXResetCommandHandlerBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 53A4CE6C188FFDBE00AE8AB6 /* AXResetCommandHandlerBase.m */; };
+		53A4CE70188FFDE200AE8AB6 /* AXHelpCommandHandlerBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 53A4CE6F188FFDE200AE8AB6 /* AXHelpCommandHandlerBase.m */; };
+		53A4CE741890039D00AE8AB6 /* NSString+Stripped.m in Sources */ = {isa = PBXBuildFile; fileRef = 53A4CE731890039D00AE8AB6 /* NSString+Stripped.m */; };
+		53A4CE771890081A00AE8AB6 /* AXQuitCommandHandlerBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 53A4CE761890081A00AE8AB6 /* AXQuitCommandHandlerBase.m */; };
+		53A4CE7A1890158D00AE8AB6 /* AXUserDefinedAliasCommandHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 53A4CE791890158D00AE8AB6 /* AXUserDefinedAliasCommandHandler.m */; };
+		53B42EEE1886B6320007ACED /* libhistory.6.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 53B42EE51886B34E0007ACED /* libhistory.6.0.dylib */; };
+		53B42EEF1886B63E0007ACED /* libreadline.6.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 53B42EEA1886B34E0007ACED /* libreadline.6.0.dylib */; };
+		53ED3BEA188581CF00AA5C56 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53ED3BE9188581CF00AA5C56 /* Foundation.framework */; };
+		53ED3C03188581D000AA5C56 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53ED3C02188581D000AA5C56 /* XCTest.framework */; };
+		53ED3C04188581D000AA5C56 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53ED3BE9188581CF00AA5C56 /* Foundation.framework */; };
+		53ED3C05188581D000AA5C56 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53ED3BED188581CF00AA5C56 /* UIKit.framework */; };
+		53ED3C0D188581D000AA5C56 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 53ED3C0B188581D000AA5C56 /* InfoPlist.strings */; };
+		53ED3C0F188581D000AA5C56 /* imemTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 53ED3C0E188581D000AA5C56 /* imemTests.m */; };
+		53ED3C1D1885828700AA5C56 /* AXCUIHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 53ED3C191885828700AA5C56 /* AXCUIHandler.m */; };
+		53ED3C1E1885828700AA5C56 /* AXMemoryCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 53ED3C1B1885828700AA5C56 /* AXMemoryCore.m */; };
+		53ED3C1F1885828700AA5C56 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 53ED3C1C1885828700AA5C56 /* main.m */; };
+		53ED3C281885879600AA5C56 /* entitlements.xml in Resources */ = {isa = PBXBuildFile; fileRef = 53ED3C251885879600AA5C56 /* entitlements.xml */; };
+		53ED3C2A1885879600AA5C56 /* make.sh in Resources */ = {isa = PBXBuildFile; fileRef = 53ED3C271885879600AA5C56 /* make.sh */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		53ED3C06188581D000AA5C56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53ED3BDE188581CF00AA5C56 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53ED3BE5188581CF00AA5C56;
+			remoteInfo = imem;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5357601318C5C2520080CBE6 /* AXTypeCommandHandlerBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AXTypeCommandHandlerBase.h; sourceTree = "<group>"; };
+		5357601418C5C2520080CBE6 /* AXTypeCommandHandlerBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AXTypeCommandHandlerBase.m; sourceTree = "<group>"; };
+		5364A5D31926583B00DFAEA2 /* AXPrintCommandHandlerBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AXPrintCommandHandlerBase.h; sourceTree = "<group>"; };
+		5364A5D41926583B00DFAEA2 /* AXPrintCommandHandlerBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AXPrintCommandHandlerBase.m; sourceTree = "<group>"; };
+		53A4CE5C188FF84500AE8AB6 /* AXHandlerHelp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AXHandlerHelp.h; sourceTree = "<group>"; };
+		53A4CE5D188FF84500AE8AB6 /* AXHandlerHelp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AXHandlerHelp.m; sourceTree = "<group>"; };
+		53A4CE5F188FFB0D00AE8AB6 /* AXChangeCommandHandlerBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AXChangeCommandHandlerBase.h; sourceTree = "<group>"; };
+		53A4CE60188FFB0D00AE8AB6 /* AXChangeCommandHandlerBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AXChangeCommandHandlerBase.m; sourceTree = "<group>"; };
+		53A4CE62188FFB2400AE8AB6 /* AXSearchCommandHandlerBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AXSearchCommandHandlerBase.h; sourceTree = "<group>"; };
+		53A4CE63188FFB2400AE8AB6 /* AXSearchCommandHandlerBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AXSearchCommandHandlerBase.m; sourceTree = "<group>"; };
+		53A4CE65188FFB3500AE8AB6 /* AXAliasCommandHandlerBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AXAliasCommandHandlerBase.h; sourceTree = "<group>"; };
+		53A4CE66188FFB3500AE8AB6 /* AXAliasCommandHandlerBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AXAliasCommandHandlerBase.m; sourceTree = "<group>"; };
+		53A4CE68188FFB6C00AE8AB6 /* AXListCommandHandlerBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AXListCommandHandlerBase.h; sourceTree = "<group>"; };
+		53A4CE69188FFB6C00AE8AB6 /* AXListCommandHandlerBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AXListCommandHandlerBase.m; sourceTree = "<group>"; };
+		53A4CE6B188FFDBE00AE8AB6 /* AXResetCommandHandlerBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AXResetCommandHandlerBase.h; sourceTree = "<group>"; };
+		53A4CE6C188FFDBE00AE8AB6 /* AXResetCommandHandlerBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AXResetCommandHandlerBase.m; sourceTree = "<group>"; };
+		53A4CE6E188FFDE200AE8AB6 /* AXHelpCommandHandlerBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AXHelpCommandHandlerBase.h; sourceTree = "<group>"; };
+		53A4CE6F188FFDE200AE8AB6 /* AXHelpCommandHandlerBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AXHelpCommandHandlerBase.m; sourceTree = "<group>"; };
+		53A4CE721890039D00AE8AB6 /* NSString+Stripped.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Stripped.h"; sourceTree = "<group>"; };
+		53A4CE731890039D00AE8AB6 /* NSString+Stripped.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Stripped.m"; sourceTree = "<group>"; };
+		53A4CE751890081A00AE8AB6 /* AXQuitCommandHandlerBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AXQuitCommandHandlerBase.h; sourceTree = "<group>"; };
+		53A4CE761890081A00AE8AB6 /* AXQuitCommandHandlerBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AXQuitCommandHandlerBase.m; sourceTree = "<group>"; };
+		53A4CE781890158D00AE8AB6 /* AXUserDefinedAliasCommandHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AXUserDefinedAliasCommandHandler.h; sourceTree = "<group>"; };
+		53A4CE791890158D00AE8AB6 /* AXUserDefinedAliasCommandHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AXUserDefinedAliasCommandHandler.m; sourceTree = "<group>"; };
+		53B42EDA1886B34E0007ACED /* chardefs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = chardefs.h; sourceTree = "<group>"; };
+		53B42EDB1886B34E0007ACED /* history.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = history.h; sourceTree = "<group>"; };
+		53B42EDC1886B34E0007ACED /* keymaps.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = keymaps.h; sourceTree = "<group>"; };
+		53B42EDD1886B34E0007ACED /* readline.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = readline.h; sourceTree = "<group>"; };
+		53B42EDE1886B34E0007ACED /* rlconf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = rlconf.h; sourceTree = "<group>"; };
+		53B42EDF1886B34E0007ACED /* rlstdc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = rlstdc.h; sourceTree = "<group>"; };
+		53B42EE01886B34E0007ACED /* rltypedefs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = rltypedefs.h; sourceTree = "<group>"; };
+		53B42EE11886B34E0007ACED /* tilde.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tilde.h; sourceTree = "<group>"; };
+		53B42EE31886B34E0007ACED /* libhistory.5.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libhistory.5.2.dylib; sourceTree = "<group>"; };
+		53B42EE41886B34E0007ACED /* libhistory.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libhistory.5.dylib; sourceTree = "<group>"; };
+		53B42EE51886B34E0007ACED /* libhistory.6.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libhistory.6.0.dylib; sourceTree = "<group>"; };
+		53B42EE61886B34E0007ACED /* libhistory.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libhistory.6.dylib; sourceTree = "<group>"; };
+		53B42EE71886B34E0007ACED /* libhistory.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libhistory.dylib; sourceTree = "<group>"; };
+		53B42EE81886B34E0007ACED /* libreadline.5.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libreadline.5.2.dylib; sourceTree = "<group>"; };
+		53B42EE91886B34E0007ACED /* libreadline.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libreadline.5.dylib; sourceTree = "<group>"; };
+		53B42EEA1886B34E0007ACED /* libreadline.6.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libreadline.6.0.dylib; sourceTree = "<group>"; };
+		53B42EEB1886B34E0007ACED /* libreadline.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libreadline.6.dylib; sourceTree = "<group>"; };
+		53B42EEC1886B34E0007ACED /* libreadline.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libreadline.dylib; sourceTree = "<group>"; };
+		53ED3BE6188581CF00AA5C56 /* imem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = imem.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		53ED3BE9188581CF00AA5C56 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		53ED3BEB188581CF00AA5C56 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		53ED3BED188581CF00AA5C56 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		53ED3BF1188581CF00AA5C56 /* imem-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "imem-Info.plist"; sourceTree = "<group>"; };
+		53ED3BF3188581CF00AA5C56 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		53ED3BF7188581CF00AA5C56 /* imem-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "imem-Prefix.pch"; sourceTree = "<group>"; };
+		53ED3C01188581D000AA5C56 /* imemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = imemTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		53ED3C02188581D000AA5C56 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		53ED3C0A188581D000AA5C56 /* imemTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "imemTests-Info.plist"; sourceTree = "<group>"; };
+		53ED3C0C188581D000AA5C56 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		53ED3C0E188581D000AA5C56 /* imemTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = imemTests.m; sourceTree = "<group>"; };
+		53ED3C181885828700AA5C56 /* AXCUIHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AXCUIHandler.h; sourceTree = "<group>"; };
+		53ED3C191885828700AA5C56 /* AXCUIHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AXCUIHandler.m; sourceTree = "<group>"; };
+		53ED3C1A1885828700AA5C56 /* AXMemoryCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AXMemoryCore.h; sourceTree = "<group>"; };
+		53ED3C1B1885828700AA5C56 /* AXMemoryCore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AXMemoryCore.m; sourceTree = "<group>"; };
+		53ED3C1C1885828700AA5C56 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		53ED3C23188583EA00AA5C56 /* libSystem.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libSystem.dylib; path = usr/lib/libSystem.dylib; sourceTree = SDKROOT; };
+		53ED3C251885879600AA5C56 /* entitlements.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = entitlements.xml; sourceTree = SOURCE_ROOT; };
+		53ED3C271885879600AA5C56 /* make.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = make.sh; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53ED3BE3188581CF00AA5C56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53B42EEF1886B63E0007ACED /* libreadline.6.0.dylib in Frameworks */,
+				53B42EEE1886B6320007ACED /* libhistory.6.0.dylib in Frameworks */,
+				53ED3BEA188581CF00AA5C56 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53ED3BFE188581D000AA5C56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53ED3C03188581D000AA5C56 /* XCTest.framework in Frameworks */,
+				53ED3C05188581D000AA5C56 /* UIKit.framework in Frameworks */,
+				53ED3C04188581D000AA5C56 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53A4CE5B188FF80900AE8AB6 /* CommandHandler */ = {
+			isa = PBXGroup;
+			children = (
+				53A4CE5C188FF84500AE8AB6 /* AXHandlerHelp.h */,
+				53A4CE5D188FF84500AE8AB6 /* AXHandlerHelp.m */,
+				53A4CE5F188FFB0D00AE8AB6 /* AXChangeCommandHandlerBase.h */,
+				53A4CE60188FFB0D00AE8AB6 /* AXChangeCommandHandlerBase.m */,
+				53A4CE62188FFB2400AE8AB6 /* AXSearchCommandHandlerBase.h */,
+				53A4CE63188FFB2400AE8AB6 /* AXSearchCommandHandlerBase.m */,
+				53A4CE65188FFB3500AE8AB6 /* AXAliasCommandHandlerBase.h */,
+				53A4CE66188FFB3500AE8AB6 /* AXAliasCommandHandlerBase.m */,
+				53A4CE781890158D00AE8AB6 /* AXUserDefinedAliasCommandHandler.h */,
+				53A4CE791890158D00AE8AB6 /* AXUserDefinedAliasCommandHandler.m */,
+				53A4CE68188FFB6C00AE8AB6 /* AXListCommandHandlerBase.h */,
+				53A4CE69188FFB6C00AE8AB6 /* AXListCommandHandlerBase.m */,
+				53A4CE6B188FFDBE00AE8AB6 /* AXResetCommandHandlerBase.h */,
+				53A4CE6C188FFDBE00AE8AB6 /* AXResetCommandHandlerBase.m */,
+				53A4CE6E188FFDE200AE8AB6 /* AXHelpCommandHandlerBase.h */,
+				53A4CE6F188FFDE200AE8AB6 /* AXHelpCommandHandlerBase.m */,
+				53A4CE751890081A00AE8AB6 /* AXQuitCommandHandlerBase.h */,
+				53A4CE761890081A00AE8AB6 /* AXQuitCommandHandlerBase.m */,
+				5357601318C5C2520080CBE6 /* AXTypeCommandHandlerBase.h */,
+				5357601418C5C2520080CBE6 /* AXTypeCommandHandlerBase.m */,
+				5364A5D31926583B00DFAEA2 /* AXPrintCommandHandlerBase.h */,
+				5364A5D41926583B00DFAEA2 /* AXPrintCommandHandlerBase.m */,
+			);
+			name = CommandHandler;
+			sourceTree = "<group>";
+		};
+		53A4CE711890036000AE8AB6 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				53A4CE721890039D00AE8AB6 /* NSString+Stripped.h */,
+				53A4CE731890039D00AE8AB6 /* NSString+Stripped.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		53B42ED71886B34E0007ACED /* readline.6.0-7 */ = {
+			isa = PBXGroup;
+			children = (
+				53B42ED81886B34E0007ACED /* include */,
+				53B42EE21886B34E0007ACED /* lib */,
+			);
+			path = "readline.6.0-7";
+			sourceTree = "<group>";
+		};
+		53B42ED81886B34E0007ACED /* include */ = {
+			isa = PBXGroup;
+			children = (
+				53B42ED91886B34E0007ACED /* readline */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		53B42ED91886B34E0007ACED /* readline */ = {
+			isa = PBXGroup;
+			children = (
+				53B42EDA1886B34E0007ACED /* chardefs.h */,
+				53B42EDB1886B34E0007ACED /* history.h */,
+				53B42EDC1886B34E0007ACED /* keymaps.h */,
+				53B42EDD1886B34E0007ACED /* readline.h */,
+				53B42EDE1886B34E0007ACED /* rlconf.h */,
+				53B42EDF1886B34E0007ACED /* rlstdc.h */,
+				53B42EE01886B34E0007ACED /* rltypedefs.h */,
+				53B42EE11886B34E0007ACED /* tilde.h */,
+			);
+			path = readline;
+			sourceTree = "<group>";
+		};
+		53B42EE21886B34E0007ACED /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				53B42EE31886B34E0007ACED /* libhistory.5.2.dylib */,
+				53B42EE41886B34E0007ACED /* libhistory.5.dylib */,
+				53B42EE51886B34E0007ACED /* libhistory.6.0.dylib */,
+				53B42EE61886B34E0007ACED /* libhistory.6.dylib */,
+				53B42EE71886B34E0007ACED /* libhistory.dylib */,
+				53B42EE81886B34E0007ACED /* libreadline.5.2.dylib */,
+				53B42EE91886B34E0007ACED /* libreadline.5.dylib */,
+				53B42EEA1886B34E0007ACED /* libreadline.6.0.dylib */,
+				53B42EEB1886B34E0007ACED /* libreadline.6.dylib */,
+				53B42EEC1886B34E0007ACED /* libreadline.dylib */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		53ED3BDD188581CF00AA5C56 = {
+			isa = PBXGroup;
+			children = (
+				53ED3BEF188581CF00AA5C56 /* imem */,
+				53ED3C08188581D000AA5C56 /* imemTests */,
+				53ED3BE8188581CF00AA5C56 /* Frameworks */,
+				53ED3BE7188581CF00AA5C56 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		53ED3BE7188581CF00AA5C56 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53ED3BE6188581CF00AA5C56 /* imem.app */,
+				53ED3C01188581D000AA5C56 /* imemTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53ED3BE8188581CF00AA5C56 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53B42ED71886B34E0007ACED /* readline.6.0-7 */,
+				53ED3C23188583EA00AA5C56 /* libSystem.dylib */,
+				53ED3BE9188581CF00AA5C56 /* Foundation.framework */,
+				53ED3BEB188581CF00AA5C56 /* CoreGraphics.framework */,
+				53ED3BED188581CF00AA5C56 /* UIKit.framework */,
+				53ED3C02188581D000AA5C56 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		53ED3BEF188581CF00AA5C56 /* imem */ = {
+			isa = PBXGroup;
+			children = (
+				53A4CE711890036000AE8AB6 /* Category */,
+				53A4CE5B188FF80900AE8AB6 /* CommandHandler */,
+				53ED3C181885828700AA5C56 /* AXCUIHandler.h */,
+				53ED3C191885828700AA5C56 /* AXCUIHandler.m */,
+				53ED3C1A1885828700AA5C56 /* AXMemoryCore.h */,
+				53ED3C1B1885828700AA5C56 /* AXMemoryCore.m */,
+				53ED3C1C1885828700AA5C56 /* main.m */,
+				53ED3BF0188581CF00AA5C56 /* Supporting Files */,
+			);
+			path = imem;
+			sourceTree = "<group>";
+		};
+		53ED3BF0188581CF00AA5C56 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				53ED3C251885879600AA5C56 /* entitlements.xml */,
+				53ED3C271885879600AA5C56 /* make.sh */,
+				53ED3BF1188581CF00AA5C56 /* imem-Info.plist */,
+				53ED3BF2188581CF00AA5C56 /* InfoPlist.strings */,
+				53ED3BF7188581CF00AA5C56 /* imem-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		53ED3C08188581D000AA5C56 /* imemTests */ = {
+			isa = PBXGroup;
+			children = (
+				53ED3C0E188581D000AA5C56 /* imemTests.m */,
+				53ED3C09188581D000AA5C56 /* Supporting Files */,
+			);
+			path = imemTests;
+			sourceTree = "<group>";
+		};
+		53ED3C09188581D000AA5C56 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				53ED3C0A188581D000AA5C56 /* imemTests-Info.plist */,
+				53ED3C0B188581D000AA5C56 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		53ED3BE5188581CF00AA5C56 /* imem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53ED3C12188581D000AA5C56 /* Build configuration list for PBXNativeTarget "imem" */;
+			buildPhases = (
+				53ED3BE2188581CF00AA5C56 /* Sources */,
+				53ED3BE3188581CF00AA5C56 /* Frameworks */,
+				53ED3BE4188581CF00AA5C56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = imem;
+			productName = imem;
+			productReference = 53ED3BE6188581CF00AA5C56 /* imem.app */;
+			productType = "com.apple.product-type.application";
+		};
+		53ED3C00188581D000AA5C56 /* imemTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53ED3C15188581D000AA5C56 /* Build configuration list for PBXNativeTarget "imemTests" */;
+			buildPhases = (
+				53ED3BFD188581D000AA5C56 /* Sources */,
+				53ED3BFE188581D000AA5C56 /* Frameworks */,
+				53ED3BFF188581D000AA5C56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53ED3C07188581D000AA5C56 /* PBXTargetDependency */,
+			);
+			name = imemTests;
+			productName = imemTests;
+			productReference = 53ED3C01188581D000AA5C56 /* imemTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		53ED3BDE188581CF00AA5C56 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AX;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = axot.org;
+				TargetAttributes = {
+					53ED3C00188581D000AA5C56 = {
+						TestTargetID = 53ED3BE5188581CF00AA5C56;
+					};
+				};
+			};
+			buildConfigurationList = 53ED3BE1188581CF00AA5C56 /* Build configuration list for PBXProject "imem" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 53ED3BDD188581CF00AA5C56;
+			productRefGroup = 53ED3BE7188581CF00AA5C56 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53ED3BE5188581CF00AA5C56 /* imem */,
+				53ED3C00188581D000AA5C56 /* imemTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		53ED3BE4188581CF00AA5C56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53ED3C2A1885879600AA5C56 /* make.sh in Resources */,
+				53ED3C281885879600AA5C56 /* entitlements.xml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53ED3BFF188581D000AA5C56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53ED3C0D188581D000AA5C56 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53ED3BE2188581CF00AA5C56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53A4CE6D188FFDBE00AE8AB6 /* AXResetCommandHandlerBase.m in Sources */,
+				5364A5D51926583B00DFAEA2 /* AXPrintCommandHandlerBase.m in Sources */,
+				53ED3C1E1885828700AA5C56 /* AXMemoryCore.m in Sources */,
+				53A4CE67188FFB3500AE8AB6 /* AXAliasCommandHandlerBase.m in Sources */,
+				53A4CE6A188FFB6C00AE8AB6 /* AXListCommandHandlerBase.m in Sources */,
+				53A4CE64188FFB2400AE8AB6 /* AXSearchCommandHandlerBase.m in Sources */,
+				53A4CE70188FFDE200AE8AB6 /* AXHelpCommandHandlerBase.m in Sources */,
+				53A4CE771890081A00AE8AB6 /* AXQuitCommandHandlerBase.m in Sources */,
+				53A4CE7A1890158D00AE8AB6 /* AXUserDefinedAliasCommandHandler.m in Sources */,
+				53ED3C1D1885828700AA5C56 /* AXCUIHandler.m in Sources */,
+				53A4CE741890039D00AE8AB6 /* NSString+Stripped.m in Sources */,
+				53A4CE5E188FF84500AE8AB6 /* AXHandlerHelp.m in Sources */,
+				53A4CE61188FFB0D00AE8AB6 /* AXChangeCommandHandlerBase.m in Sources */,
+				5357601518C5C2520080CBE6 /* AXTypeCommandHandlerBase.m in Sources */,
+				53ED3C1F1885828700AA5C56 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53ED3BFD188581D000AA5C56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53ED3C0F188581D000AA5C56 /* imemTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		53ED3C07188581D000AA5C56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53ED3BE5188581CF00AA5C56 /* imem */;
+			targetProxy = 53ED3C06188581D000AA5C56 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		53ED3BF2188581CF00AA5C56 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53ED3BF3188581CF00AA5C56 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		53ED3C0B188581D000AA5C56 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53ED3C0C188581D000AA5C56 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		53ED3C10188581D000AA5C56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		53ED3C11188581D000AA5C56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		53ED3C13188581D000AA5C56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "Mac Developer: Shao Zheng (25D3GZ4C6N)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "imem/imem-Prefix.pch";
+				INFOPLIST_FILE = "imem/imem-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/readline.6.0-7/lib",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/readline.6.0-7/include";
+				VALID_ARCHS = armv7;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		53ED3C14188581D000AA5C56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "Mac Developer: Shao Zheng (25D3GZ4C6N)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "imem/imem-Prefix.pch";
+				INFOPLIST_FILE = "imem/imem-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/readline.6.0-7/lib",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/readline.6.0-7/include";
+				VALID_ARCHS = armv7;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		53ED3C16188581D000AA5C56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/imem.app/imem";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "imem/imem-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "imemTests/imemTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		53ED3C17188581D000AA5C56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/imem.app/imem";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "imem/imem-Prefix.pch";
+				INFOPLIST_FILE = "imemTests/imemTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53ED3BE1188581CF00AA5C56 /* Build configuration list for PBXProject "imem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53ED3C10188581D000AA5C56 /* Debug */,
+				53ED3C11188581D000AA5C56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53ED3C12188581D000AA5C56 /* Build configuration list for PBXNativeTarget "imem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53ED3C13188581D000AA5C56 /* Debug */,
+				53ED3C14188581D000AA5C56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53ED3C15188581D000AA5C56 /* Build configuration list for PBXNativeTarget "imemTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53ED3C16188581D000AA5C56 /* Debug */,
+				53ED3C17188581D000AA5C56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 53ED3BDE188581CF00AA5C56 /* Project object */;
+}
